@@ -1,8 +1,8 @@
 # ASCII-PAINTER
 
-A minimalist CLI ASCII image converter written in C,
-Image size adapts to terminal size,
-Made because I wanted my own ASCII wallpapers lol
+A minimalist CLI ASCII image converter written in C.
+Image size adapts to terminal size.
+Made because I wanted my own ASCII wallpapers lol.
 Fun weekend project!
 
 ![Showcase](Screenshot.png)
