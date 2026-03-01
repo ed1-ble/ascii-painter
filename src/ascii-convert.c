@@ -16,7 +16,6 @@ void print_image(unsigned char* pixel_data, int width, int height, int cols) {
     // Downsize the image
     int pixels_per_col = width/cols;
     int pixels_per_row = height/rows;
-    printf("Converted x, y: %d, %d\n", pixels_per_col,pixels_per_row);
     
     unsigned char* term_image = malloc(rows * cols); 
 
@@ -62,10 +61,7 @@ void print_image(unsigned char* pixel_data, int width, int height, int cols) {
 
 int main(int argc, char** argv) {
     int width, height, channels; //channels is num of 8bit components/pixel
-    printf("%s\n",argv[1]);
     unsigned char *pixel_data = stbi_load(argv[1],&width,&height,&channels,1);
-    printf("File: %s\n", argv[1]);
-    printf("Width: %d, Height: %d\n", width, height);
 
     //     N=#comp     components
     //       1           grey
