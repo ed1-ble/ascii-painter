@@ -1,4 +1,4 @@
-#ASCII-PAINTER
+# ASCII-PAINTER
 
 A minimalist CLI ASCII image converter written in C,
 Image size adapts to terminal size,
@@ -7,17 +7,16 @@ Fun weekend project!
 
 ![Showcase](Screenshot.png)
 
-##REMARKS
+## REMARKS
 
 - Image parser library from: https://github.com/nothings/stb?tab=readme-ov-file
 - Not really meant for public usage
 
-##INSTALL
+## INSTALL
 
-Again, not meant for public use but you can clone this repo and compile with the makefile.
-1. Clone the repo:
-   git clone https://github.com/ed1-ble/ascii-painter
-   cd ascii-painter
+Not meant for public use but you can clone this repo and compile with the makefile
 
-2. Build:
-   make
+```bash
+git clone https://github.com/ed1-ble/ascii-painter
+cd ascii-painter
+make
