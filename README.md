@@ -1,0 +1,1 @@
+minimal CLI weekend project
